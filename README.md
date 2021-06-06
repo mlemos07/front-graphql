@@ -1,5 +1,5 @@
 <h1 align="center">
-Começo do GraphQL
+Praticando GraphQL
 </h1>
 
 <h1>
