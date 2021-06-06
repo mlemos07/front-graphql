@@ -3,17 +3,18 @@ import styles from './CardUser.module.css'
 
 import { IoIosRemoveCircleOutline } from "react-icons/io";
 
-const CardUser = () => {
+const CardUser = ({name, profession, _id}) => {
+
     return (
         <div className={styles.card}>
             <div className={styles.cardName}>
-                <h1>Marianna Lemos</h1>
+                <h1>{name}</h1>
                 <IoIosRemoveCircleOutline className={styles.icon} style={{fontSize: 22}} />
             </div>
             <div>
-                <p>Profissão: Desenvolvedor de sistemas</p>
+                <p>Profissão: {profession}</p>
             </div>
-            <p>92831984367864</p>
+            <p>{_id}</p>
         </div>
     )
 }
