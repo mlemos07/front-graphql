@@ -1,0 +1,52 @@
+.header {
+    background-image: linear-gradient(to right, #FFBB11, #d19a0fab);
+
+    width: 100%;
+    height: 5rem;
+
+    display: flex;
+}
+
+.header .contentHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 80%;
+
+    margin: 0 auto;
+}
+
+.header .contentHeader h1 {
+    z-index: 1;
+
+    position: relative;
+}
+
+.header .contentHeader h1::before {
+    content: '';
+
+    width: 1.8rem;
+    height: 1.8rem;
+
+    display: inline-block;
+
+    border-radius: .3rem;
+
+    background: white;
+
+    position: absolute;
+
+    top: .8rem;
+    left: -.2rem;
+    
+    z-index: -1;
+}
+
+.listHeader {
+    display: flex;
+    align-items: center;
+}
+
+.listHeader p {
+    margin-left: .3rem;
+}
