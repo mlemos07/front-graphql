@@ -1,6 +1,7 @@
 import './style.css'
 import Header from "./Components/Header"
-import Nav from './Components/Nav/index.js'
+import Nav from './Components/Nav/'
+import Main from './Components/Main'
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Header />
       <main className="main">
         <Nav />
+        <Main />
       </main>
     </div>
   );

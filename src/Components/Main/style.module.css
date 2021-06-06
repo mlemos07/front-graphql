@@ -1,0 +1,7 @@
+.mainContent {
+    display: grid;
+    grid-template-columns: .8fr 1fr;
+    gap: .5rem;
+
+    margin-top: 1rem;
+}

@@ -1,0 +1,39 @@
+.wrapper {
+    margin-bottom: 1rem;
+}
+
+.label {
+    display: block;
+
+    font-size: 1rem;
+    line-height: 1;
+    padding-bottom: .5rem;
+    color: var(--color-text-grey);
+}
+
+.input {
+    border: 1px solid rgb(192, 192, 192);
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    padding: .8rem;
+
+    border-radius: .4rem;
+
+    transition: .3s;
+}
+
+.input:focus,
+.input:hover {
+    outline: none;
+    border-color: var(--color-primary);
+    background: white;
+
+    box-shadow: 0 0 0 2px var(--color-second), 0 0 0 3px var(--color-primary);
+}
+
+.error {
+    color: #f31;
+    font-size: .875rem;
+    margin-top: .25rem;
+}

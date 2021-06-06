@@ -20,6 +20,8 @@
     z-index: 1;
 
     position: relative;
+    
+    color: var(--color-text-black);
 }
 
 .header .contentHeader h1::before {

@@ -1,0 +1,30 @@
+.card {
+    width: 100%;
+
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, .5);
+    background-image: linear-gradient(to right, #FFBB11, #d19a0fab);
+
+    min-height: 7rem;
+
+    border-radius: .3rem;
+    border: 1px solid #fb1;
+    padding: .3rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardName {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    cursor: pointer;
+    transition: .3s;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}

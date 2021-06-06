@@ -9,10 +9,15 @@
 :root {
     --color-primary: #fb1;
     --color-second: #fea;
+
+    --color-text-black: #1a1a1a;
+    --color-text-grey: #616161;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
+
+    color: var(--color-text-black);
 }
 
 button {
