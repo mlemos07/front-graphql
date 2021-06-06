@@ -16,7 +16,7 @@ A api encontra-se no link a seguir: https://github.com/mlemos07/api-graphql.git
 
 ## 🚀 Tecnologias utilizadas
 
-O projeto foi desenvolcido utilizando as seguintes tecnologias:
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - React
 - React icons
