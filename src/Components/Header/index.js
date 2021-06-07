@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <header className={styles.header}>
             <div className={styles.contentHeader}>
-                <h1>GRAHPQL</h1>
+                <h1>GRAPHQL</h1>
                 <ul className={styles.listHeader}>
                     <li><AiOutlineUser style={{fontSize: 20}} /></li>
                     <li><p>Olá, nome</p></li>
